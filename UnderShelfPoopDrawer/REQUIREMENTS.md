@@ -17,4 +17,6 @@
 - Drawer front panel is wider than the body and covers the rail ends; it is the closed stop.
 - Screw holes for #6–#8 countersunk wood screws: 4.5 mm clearance, 90° countersink 9 mm, flush on the drawer side. Plate is 4 mm, so a 3/4 in screw goes about 15 mm into the shelf (shelf must be thicker than that); a 1/2 in screw about 8.7 mm.
 - Six screws per frame, in three cross-bars (front, middle, back).
+- Handle pocket roof: both long edges chamfered 5 mm at 45° (parameter roof_chamfer), so the printed bridge is 6 mm instead of 16 mm.
+- Pocket housing, inside the drawer: top back edge chamfered 6 mm at 45° (user's "Chamfer 3") to save material; it runs parallel to the roof chamfer, leaving about 2.1 mm of wall between them. Its distance is the expression roof_chamfer + 1, so the wall stays when roof_chamfer changes.
 - Clearances: 0.3 mm normal gap on the 45° slide faces, 0.5 mm side gaps, about 1.4 mm between drawer top and frame at rest; 1 mm between the two drawer fronts.
